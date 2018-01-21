@@ -2,18 +2,36 @@
     margin: 0;
     padding: 0;
     border: 0;
+    font-family: "源ノ角ゴシック", serif;
 }
 
-body{
-    align-items: center;
+body {
+    margin: 1em;
 }
 
-.row-fluid{
-    margin:0 0 0.5em 0;
+h1, h2 {
+    font-family: "源ノ角ゴシック", serif;
 }
 
-.span4{
-
-    border:1px solid lightgray;
-    border-radius:0.25em;
+h1 {
+    font-size: 20px;
 }
+
+h2 {
+    font-size: 18px;
+}
+
+.row-fluid {
+    margin: 0 0 0.5em 0;
+}
+
+.row-fluid .span4 {
+    border: 1px solid lightgray;
+    border-radius: 0.25em;
+    background-color: aliceblue;
+}
+
+.span4 ul {
+    padding: 0.5em;
+}
+
