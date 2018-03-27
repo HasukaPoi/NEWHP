@@ -13,9 +13,12 @@ h2 {
     font-size: 18px;
 }
 
-li {
-    list-style-type: none;
-    margin:2px 0;
+a {
+    text-decoration: none;
+}
+
+a,a:visited {
+    color: hotpink;
 }
 
 input[type=text], button {
@@ -35,21 +38,34 @@ button:hover {
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
-.row-fluid {
+/* .row-fluid {
     margin: 0 0 0.5em 0;
-}
+} */
 
 .container-fluid>.row-fluid>.span4 {
     border: 1px solid lightgray;
     border-radius: 0.25em;
     background-color: aliceblue;
+    padding: 0 0.5em;
+    margin: 0.25em;
 }
 
-.span4 ul {
-    padding: 0.5em;
-}
-
-.multi-search > * > * {
+.multi-search>*>* {
     width: 100%;
 }
 
+.links li {
+    list-style-type: none;
+    float: left;
+    min-width: 3em;
+    padding-right: 0.75em;
+}
+
+.lines li{
+    float:none;
+    padding-right:0;
+}
+
+.links li:last-child {
+    padding-right: 0;
+}
