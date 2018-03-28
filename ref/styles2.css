@@ -47,13 +47,14 @@ button:hover {
     overflow:auto;
     float:none;
     clear:both;
+	margin-bottom: 0.5em;
 }
 
 .container-fluid>.row-fluid>.span4 {
     border: 1px solid lightgray;
     border-radius: 0.25em;
     background-color: aliceblue;
-    padding: 0 0.5em;
+    padding:  0.5em;
     margin: 0.25em;
 }
 
