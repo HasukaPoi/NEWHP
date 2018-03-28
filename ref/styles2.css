@@ -42,7 +42,7 @@ button:hover {
     margin: 0 0 0.5em 0;
 } */
 
-.container-fluid>.row-fluid>div:first-child{
+.container-fluid>.row-fluid>h2{
     float:none;
     clear:both;
 }
