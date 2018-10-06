@@ -81,9 +81,3 @@ button:hover {
 .links li:last-child {
     padding-right: 0;
 }
-
-.del h2,
-.del a {
-    text-decoration: line-through;
-    color: grey;
-}
